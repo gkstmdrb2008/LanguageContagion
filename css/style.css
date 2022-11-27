@@ -1,0 +1,492 @@
+
+@media screen and (max-width: 1920px) {
+body {
+    width: displayWidth;
+    height: displayheight;
+    background-color: black;
+    background: black;
+    font-family: 'Roboto Mono', monospace;
+}
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+@font-face {
+    src: url("font/AppleSDGothicNeoM.ttf");
+    font-family: "AppleSDGothicNeoM";
+}
+
+@font-face {
+    src: url("font/MYRIADPRO-REGULAR.OTF");
+    font-family: "MYRIADPRO-REGULAR";
+}
+
+@font-face {
+    src: url("font/RobotoMono-Thin.ttf");
+    font-family: "RobotoMono-Thin";
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@media screen and (max-width: 1920px) {
+canvas {
+    -webkit-display: block;
+    display: block;
+}
+}
+@media screen and (max-width: 1920px) {
+.title {
+    -webkit-display: flex;
+    position: absolute;
+    width: 75%;
+    left: 50%;
+    transform: translate(-50%);
+    top: 7%;
+}
+}
+
+@media screen and (max-width: 1920px) {
+.entericon {
+    display: flex;
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    /*
+    height: auto;
+    이건 어떨까?
+    */
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 9%;
+}
+}
+@media screen and (max-width: 1920px) {
+    .infoicon {
+        z-index: 9999;
+        display: flex;
+        position: fixed;
+        width: 2.2%;
+        height: fit-content;
+        left: 96%;
+        transform: translate(-50%);
+        top: 7%;
+    }
+    }
+
+.qr{
+    z-index: 9998;
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: fit-content;
+    left: 25%;
+    top: 85%;
+}
+
+.qrinfo{
+    z-index: 9997;
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: fit-content;
+    left: 36%;
+    top: 88%;
+}
+
+.to0{
+    /*
+    -webkit-display: inline-block;
+    -webkit-position: absolute;
+    */
+    z-index: 10010;
+    display: inline-block;
+    position: absolute;
+    width: 8.5%;
+    height: auto;
+    top: 4.3%;
+    left: 40%;
+}
+
+.this0{
+    display: flex;
+    position: absolute;
+    width: 45%;
+    height: auto;
+    top: 46%;
+    right: 3%;
+}
+
+.to1{
+    /*
+    -webkit-display: inline-block;
+    -webkit-position: absolute;
+    */
+    z-index: 10010;
+    display: inline-block;
+    position: absolute;
+    width: 9%;
+    height: auto;
+    top: 4.3%;
+    left: 51%;
+}
+
+.this1{
+    display: flex;
+    position: absolute;
+    width: 45%;
+    height: auto;
+    top: 90%;
+    right: 3%;
+}
+
+.to2{
+    /*
+    -webkit-display: inline-block;
+    -webkit-position: absolute;
+    */
+    z-index: 10010;
+    display: inline-block;
+    position: absolute;
+    width: 5.5%;
+    height: auto;
+    top: 4.3%;
+    left: 63%;
+}
+
+.this2{
+
+    display: flex;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 130%;
+    right: 3%;
+
+}
+
+.to3{
+    /*
+    -webkit-display: inline-block;
+    -webkit-position: absolute;
+    */
+    z-index: 10010;
+    display: inline-block;
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 4.3%;
+    left: 72%;
+}
+
+.this3{
+
+    display: flex;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 180%;
+    right: 3%;
+
+}
+
+.to4{
+    /*
+    -webkit-display: inline-block;
+    -webkit-position: absolute;
+    */
+    z-index: 10010;
+    display: inline-block;
+    position: absolute;
+    width: 7.8%;
+    height: auto;
+    top: 4.3%;
+    left: 85%;
+}
+
+.this4{
+
+    display: flex;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 230%;
+    right: 3%;
+
+}
+
+@media screen and (max-width: 1920px) {
+.lan {
+    -webkit-display: flex;
+    display: flex;
+    position: absolute;
+    width: 50px;
+    left: 6%;
+    bottom: 11%;
+}
+}
+@media screen and (max-width: 1920px) {
+.con {
+    -webkit-display: flex;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    height: 100%;
+    width: fit-content;
+}
+}
+
+@media screen and (max-width: 1920px) {
+    .button1 {
+        -webkit-display: flex;
+        position: absolute;
+        left: 105%;
+        top: 97.3%;
+        width: 4%; 
+        height: auto;
+        fill: white;
+    }
+    }
+
+@media screen and (max-width: 1920px) {
+.button {
+    -webkit-display: flex;
+    position: absolute;
+    left: 99%;
+    top: 97.3%;
+    width: 4%; 
+    height: auto;
+    fill: white;
+}
+}
+@media screen and (max-width: 1920px) {
+.button:hover { 
+    left: 99%;
+    -webkit-fill: #0f0;
+    fill: #0f0;
+}
+}
+
+@media screen and (max-width: 1920px) {
+.textbox {
+    
+    left: 46.5%;
+    display: flex;
+    position: absolute;
+    width: 50%;
+    top: 97%;
+}
+}
+
+@media screen and (max-width: 1920px) {
+.textbox label {
+    z-index: 9999;
+    position: relative;
+    top: 1px;
+    /* input 요소의 border-top 설정값 만큼 */
+    left: 1px;
+    /* input 요소의 border-left 설정값 만큼 */
+    padding: 0.8em 0.5em;
+    /* input 요소의 padding 값 만큼 */
+    color: #fff;
+    cursor: text;
+}
+}
+
+@media screen and (max-width: 1920px) {
+.textbox input[type="text"] {
+    z-index: 9999;
+    background: black;
+    color: #0f0;
+    width: 100%;
+    /* 원하는 너비 설정 */
+    height: auto;
+    /* 높이값 초기화 , XYZvh로 해도 될듯?*/
+    line-height: normal;
+    /* line-height 초기화 */
+    padding: .4em 1em;
+    /* 원하는 여백 설정, 상하단 여백으로 높이를 조절 */
+    font-family: inherit;
+    font-size: 1.4em;
+    /* 폰트 상속 */
+    border: 3px solid #fff;
+    border-radius: 0;
+    /* iSO 둥근모서리 제거 */
+    outline-style: none;
+    /* 포커스시 발생하는 효과 제거를 원한다면 */
+    -webkit-appearance: none;
+    /* 브라우저별 기본 스타일링 제거 */
+    -moz-appearance: none;
+    appearance: none;
+}
+}
+
+
+@media screen and (max-width: 1920px) {
+.group{
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 49%;
+    width: 75%;
+}
+}
+
+@media screen and (max-width: 1920px) {
+h2{
+    z-index: 1000;
+    color: white; 
+    font-family: 'Roboto Mono', monospace;
+    left: 85%; 
+    top: 22%;
+    position: absolute;    
+}
+}
+
+@media screen and (max-width: 1920px) {
+.textbox2 {
+    position: absolute;
+    left: 73%;
+    top: 20.8%;
+    font-family: 'Roboto Mono', monospace;
+}
+}
+
+@media screen and (max-width: 1920px) {
+.textbox2 label {
+    position: absolute;
+    top: 1px;
+    /* input 요소의 border-top 설정값 만큼 */
+    left: 1px;
+    /* input 요소의 border-left 설정값 만큼 */
+    padding: 0.8em 0.5em;
+    /* input 요소의 padding 값 만큼 */
+    color: none;
+    cursor: text;
+}
+}
+
+@media screen and (max-width: 1920px) {
+.textbox2 input[type="text"] {
+    background: none;
+    color: #0f0;
+    width: 60%;
+    /* 원하는 너비 설정 */
+    height: auto;
+    /* 높이값 초기화 , XYZvh로 해도 될듯?*/
+    line-height: normal;
+    /* line-height 초기화 */
+    padding: .4em .5em;
+    /* 원하는 여백 설정, 상하단 여백으로 높이를 조절 */
+    font-family: inherit;
+    font-size: 1.5em;
+    /* 폰트 상속 */
+    border: 1.5px solid black;
+    border-radius: 0;
+    /* iSO 둥근모서리 제거 */
+    outline-style: none;
+    /* 포커스시 발생하는 효과 제거를 원한다면 */
+    -webkit-appearance: none;
+    /* 브라우저별 기본 스타일링 제거 */
+    -moz-appearance: none;
+    appearance: none;
+}
+}
+
+@media screen and (max-width: 1920px) {
+img{
+    max-width: 100%;
+    height: auto;
+}
+}
+
+.o{
+    z-index: 10005;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    background-color: red;
+}
+
+.marquee{
+    z-index: 10000;
+    position: fixed;
+width: 34%;
+top: 18%;
+left: 0%;
+background-color: #0f0;
+white-space: nowrap;
+overflow: hidden;
+}
+
+.marquee div{
+    top: 20%;
+    left: 0;
+font-size: 2rem;
+animation: animate 13s linear infinite;
+}
+
+@keyframes animate{
+100%{
+    transform: translate(-100%,0);
+}
+}
+
+.modal {
+	display: none;
+	z-index: 99;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.modalBox {
+	position: fixed;
+	top: 13%;
+	left: 83%;
+	transform: translate(-50%, -20%);
+	width: 30%;
+	height: fit-content;
+	text-align: center;
+}
+.modalBox img {
+	width: 100%;
+}
+
+@media screen and (max-width: 1920px) {
+#sketch{
+    -webkit-display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+/*지워라 이거*/
+.entericon1 {
+    display: flex;
+    position: absolute;
+    width: 12%;
+    height: fit-content;
+    left: 5%;
+    transform: translate(-50%);
+    bottom: 90%;
+}
+.box{ -ms-overflow-style: none; } 
+    .box::-webkit-scrollbar{ display:none; }
+
+
+.contents1{
+     -ms-overflow-style: none; 
+    
+}
+.contents1::-webkit-scrollbar{ display:none; }
+
+.contents2{
+    -ms-overflow-style: none; 
+   
+}
+.contents2::-webkit-scrollbar{ display:none; }
